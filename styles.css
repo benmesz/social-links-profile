@@ -41,7 +41,7 @@ section {
   padding: 32px 40px;
   border-radius: 10px;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   margin: auto 24px 0px 24px;
 }
 
@@ -58,7 +58,7 @@ img {
   width: 100%;
 }
 
-button {
+.button {
   background-color: var(--grey700);
   color: var(--white);
   font-weight: var(--semibold);
@@ -66,9 +66,12 @@ button {
   border-radius: 8px;
   border: none;
   width: 100%;
+  transition: background-color 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   background-color: var(--grey900);
   cursor: pointer;
 }
